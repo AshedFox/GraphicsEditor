@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsEdit", "GraphicsEdit\GraphicsEdit.csproj", "{0301BA52-FB38-4B26-8E96-3D9BC41003AA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB7C5375-2386-49D8-99B1-05CB4FC66D30} = {BB7C5375-2386-49D8-99B1-05CB4FC66D30}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLib", "SharedLib\SharedLib.csproj", "{BB7C5375-2386-49D8-99B1-05CB4FC66D30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrapezoidPlugin", "TrapezoidPlugin\TrapezoidPlugin.csproj", "{9095814F-2495-4CB5-AB23-A32D66297873}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB7C5375-2386-49D8-99B1-05CB4FC66D30} = {BB7C5375-2386-49D8-99B1-05CB4FC66D30}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0301BA52-FB38-4B26-8E96-3D9BC41003AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0301BA52-FB38-4B26-8E96-3D9BC41003AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0301BA52-FB38-4B26-8E96-3D9BC41003AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0301BA52-FB38-4B26-8E96-3D9BC41003AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB7C5375-2386-49D8-99B1-05CB4FC66D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7C5375-2386-49D8-99B1-05CB4FC66D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7C5375-2386-49D8-99B1-05CB4FC66D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7C5375-2386-49D8-99B1-05CB4FC66D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9095814F-2495-4CB5-AB23-A32D66297873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9095814F-2495-4CB5-AB23-A32D66297873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9095814F-2495-4CB5-AB23-A32D66297873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9095814F-2495-4CB5-AB23-A32D66297873}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD6F7028-FE46-47A1-9BED-C43537C0928F}
+	EndGlobalSection
+EndGlobal
